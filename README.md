@@ -34,4 +34,5 @@
   ### For additional question email me. 
 
 Video Demonstration:
-<iframe src="https://drive.google.com/file/d/1PrEEV_snFVds1ptr_XNKOx3WS1vOT0_P/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1PrEEV_snFVds1ptr_XNKOx3WS1vOT0_P/view
+
