@@ -70,17 +70,21 @@ function writeToFile(fileName, data) {
     const pageData = generateMarkdown(data);
     fs.writeFile('./README.md', pageData, err => {
         if (err) throw new Error(err);
-        console.log(generateMarkdown(data));
+        console.log("README created");
     })
 }
 
 // function to initialize program
-function init() {
+function init() {   
  inquirer.prompt(questions)
  .then(answers =>{
-    return writeToFile(answers);
+    //  console.log(answers);
+    //  console.log(answers.title);
+writeToFile('README.me', answers);
  })
 };
+
+
 
 // function call to initialize program
 init();
